@@ -11,7 +11,7 @@
 <body>
     <header class="flex__container">
         <div class="header__modo-noturno flex__container">
-            <label for="modo-noturno-btn" class="modo-noturno-label flex__container"><span class="header__bg-btn-modo-noturno"> </span></label>
+            <label for="modo-noturno-btn" class="modo-noturno-label flex__container"><span class="header__bg-btn-modo-noturno"></span></label>
             <input type="checkbox" class="modo-noturno-btn" id="modo-noturno-btn" checked>
         </div>
         <div class="header__topo flex__container">
@@ -27,7 +27,30 @@
             <p class="header__usuario-logado" id="header__usuario-logado" data-usuario-logado>Nome do Usuario Logado</p>
         </div>
     </header>
-    <main>        
+    <main>
+        <section class="filtro flex__container">
+            <input type="checkbox" id="filtro__btn-checkbox" checked>
+            <label for="filtro__btn-checkbox" class="filtro__btn-label"><img src="img/btn-filtro.png" alt="Icone de filtro"></label>
+            <div class="filtros__btns flex__container">
+                <div class="filtro__por-texto flex__container">
+                    <input type="search" id="filtro__por-texto-input" class="filtro__pesquisa-input">
+                    <button class="btn-grad" id="filtro__por-texto-btn" data-filtro-btn="texto">Buscar</button>
+                </div>
+                <button class="btn-filtro crescente" data-filtro-btn="crescente"><img src="img/btn-filtro-crescente.png" alt=""> </button>
+                <button class="btn-filtro decrescente" data-filtro-btn="decrescente"><img src="img/btn-filtro-decrescente.png" alt=""></button>
+                <button class="btn-filtro limpar" data-filtro-btn="limpar"><img src="img/btn-filtro-limpar.png" alt=""></button>
+            </div>            
+        </section>
+        <section class="abas">
+            <a href="#">Feed</a>
+            <a href="#">Perfil</a>
+            <a href="#">Postagem</a>
+            <a href="#">Escrever</a>
+
+        </section>
+        <section class="feed">
+
+        </section>     
 
     </main>
     <footer>
