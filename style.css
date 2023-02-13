@@ -25,6 +25,8 @@
     --header-bg-cor: linear-gradient(120deg, rgba(139,126,116,1) 0%, rgba(199,188,161,1) 49%, rgba(241,211,179,1) 98%);
     --header-texto-cor-principal: #65647c;
     --header-texto-cor-secundario: #32323d;
+
+    --main-bg-cor: linear-gradient(90deg, rgba(227,214,177,1) 0%, rgba(253,233,197,1) 50%, rgba(249,243,207,1) 100%);
 }
 
 .modo__noturno{    
