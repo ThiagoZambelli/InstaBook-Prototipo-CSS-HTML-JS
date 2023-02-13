@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@import url("style/header.css");
+
+:root{
+    font-size: 10px;
+    font-family: 'Podkova', serif;
+    
+    --preto: #000000;
+    --branco: #ffffff;
+
+    --bg-btn-modo-noturno: url("../img/bg-modo-noturno-lua.png");
+
+    --font-principal: 'Podkova', serif;
+    --font-titulos: 'Courgette', cursive;
+
+    --cor-capa-livro:#aa5656;
+    --cor-pasta-suspensa:#f1d3b3;
+    --marrom-escuro-btn: #402401;
+    --marrom-claro-btn:#735634;
+
+
+    --header-bg-cor: linear-gradient(120deg, rgba(139,126,116,1) 0%, rgba(199,188,161,1) 49%, rgba(241,211,179,1) 98%);
+    --header-texto-cor-principal: #65647c;
+    --header-texto-cor-secundario: #32323d;
+}
+
+.modo__noturno{    
+}
+
+.flex__container{
+    display: flex;
+}
+.grid__container{
+    display: grid;
+}
+.iline__container{
+    display: inline;
+}
+.block__container{
+    display: block;
+}
