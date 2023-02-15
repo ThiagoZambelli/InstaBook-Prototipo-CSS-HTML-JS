@@ -29,7 +29,7 @@ header{
     column-gap: 1rem;
 }
 .header__btn{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: .5em 1em;
     border-radius: 10px;
      
@@ -49,6 +49,7 @@ header{
 }
 
 /* Efeito do botao*/
+/* Gardiente entre marrom escuro e claro que troca o claro de lugar dando efeito de espelho */
          
          .btn-grad {
             background-image: linear-gradient(to right, var(--marrom-escuro-btn) 0%, #735634  51%, var(--marrom-escuro-btn)  100%);            
@@ -65,7 +66,7 @@ header{
 
           .btn-grad:hover {
             background-position: right center; /* change the direction of the change here */
-            color: var(--cor-capa-livro);
+            color: var(--marrom-escuro-btn-destaque);
             text-decoration: none;
             transform: scale(1.01);
           }

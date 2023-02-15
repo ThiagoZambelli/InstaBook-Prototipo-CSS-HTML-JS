@@ -1,0 +1,48 @@
+.filtro{
+    column-gap: 1rem;
+    padding: 2rem;    
+}
+#filtro__btn-checkbox{
+    display: none;
+}
+#filtro__btn-checkbox:checked ~ .filtros__btns{
+    display: none;
+}
+.filtro__btn-label{
+    width: 8rem;
+}
+.filtro__btn-label img{
+    width: 100%;
+    cursor: pointer;
+}
+.filtros__btns{
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    margin: 5rem auto;     
+}
+.filtro__por-texto{
+    flex-direction: column;
+    row-gap: .5em;
+}
+.filtro__pesquisa-input{
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid var(--marrom-escuro-btn);
+    padding: .2rem .5em;
+    background-color: var(--cor-pasta-suspensa);
+}
+.filtro__pesquisa-input::placeholder{
+    text-align: center;
+}
+.btn-filtro{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.btn-filtro img{
+    width: 100%;
+}
+

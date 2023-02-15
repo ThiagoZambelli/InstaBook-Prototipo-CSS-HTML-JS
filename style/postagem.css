@@ -1,0 +1,45 @@
+.feed{
+    background-color: var(--cor-pasta-suspensa);
+    padding: 2rem 0;
+}
+.postagem{
+    flex-direction: column;
+    width: 60vw;
+    margin: 0 auto 2rem auto;
+    padding: 2rem;
+    row-gap: 2rem;
+    background-color: #E1EEDD;
+    border-radius: 15px;
+    border: 2px dashed var(--marrom-escuro-btn);
+}
+
+.postagem-cabecalho{
+    column-gap: 2rem;
+    align-items: center;
+}
+.postagem-avatar{
+    width: 15%;
+}
+.postagem-autor{
+    font-size: 4rem;
+}
+
+.postagem-corpo{
+    flex-direction: column;
+    row-gap: 2rem;
+    background-color: var(--cor-pagina);
+    padding: 2rem; 
+}
+.postagem-titulo{
+    font-size: 5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+.postagem-texto{
+    font-size: 2rem;
+    text-align: justify;           
+}
+.postagem-assinatura{
+    text-align: end;
+    font-size: 1.5rem;
+}

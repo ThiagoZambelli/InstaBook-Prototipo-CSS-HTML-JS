@@ -1,0 +1,20 @@
+.abas{
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 10%;
+    font-size: 4rem;
+}
+.aba{
+    padding: .2rem 1rem;
+    text-decoration: none;
+    border-top: 2px solid var(--marrom-escuro-btn);
+    border-right: 2px solid var(--marrom-escuro-btn);
+    border-left: 2px solid var(--branco);
+    border-radius: 0 15px 0 0;
+    color: var(--marrom-escuro-btn);
+    background-color: var(--cor-pasta-suspensa);
+}
+
+.aba-ativa{
+    font-size: 6rem;
+}
