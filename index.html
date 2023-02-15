@@ -30,10 +30,10 @@
     <main>
         <section class="filtro flex__container">
             <input type="checkbox" id="filtro__btn-checkbox" checked>
-            <label for="filtro__btn-checkbox" class="filtro__btn-label"><img src="img/btn-filtro.png" alt="Icone de filtro"></label>
+            <label for="filtro__btn-checkbox" class="filtro__btn-label"><img src="img/btn-filtro-aberto.png" alt="Icone de filtro" id="btn-filtro-container"></label>
             <div class="filtros__btns flex__container">
                 <div class="filtro__por-texto flex__container">
-                    <input type="search" id="filtro__por-texto-input" class="filtro__pesquisa-input">
+                    <input type="search" id="filtro__por-texto-input" class="filtro__pesquisa-input" placeholder="Termo de busca">
                     <button class="btn-grad" id="filtro__por-texto-btn" data-filtro-btn="texto">Buscar</button>
                 </div>
                 <button class="btn-filtro crescente" data-filtro-btn="crescente"><img src="img/btn-filtro-crescente.png" alt=""> </button>
@@ -41,20 +41,44 @@
                 <button class="btn-filtro limpar" data-filtro-btn="limpar"><img src="img/btn-filtro-limpar.png" alt=""></button>
             </div>            
         </section>
-        <section class="abas">
-            <a href="#">Feed</a>
-            <a href="#">Perfil</a>
-            <a href="#">Postagem</a>
-            <a href="#">Escrever</a>
-
+        <section class="abas flex__container">
+            <a href="#" class="aba aba-ativa" data-aba="feed">Feed</a>
+            <a href="#" class="aba" data-aba="perfil">Perfil</a>
+            <a href="#" class="aba" data-aba="postagem">Postagem</a>
+            <a href="#" class="aba" data-aba="escrever">Escrever</a>
         </section>
         <section class="feed">
-
-        </section>     
-
+            <section class="postagem flex__container">
+                <div class="postagem-cabecalho flex__container">
+                    <img src="img/avatar-ausente.png" alt="Avatar do usuario" class="postagem-avatar" id="postagem-avatar" data-postagem="avatar">
+                    <h3 class="postagem-autor" id="postagem-autor" data-postagem="autor">Teste Autor</h3>
+                </div>
+                <div class="postagem-corpo flex__container">
+                    <h2 class="postagem-titulo" id="postagem-titulo" data-postagem="titulo">Teste titulo</h2>
+                    <p class="postagem-texto" id="postagem-texto" data-postagem="texto">est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla</p>
+                    <div class="postagem-assinatura-container">
+                        <p class="postagem-assinatura" id="postagem-assinatura" data-postagem="assinatura">Teste assinatura</p>
+                    </div>
+                </div>
+            </section>
+            <section class="postagem flex__container">
+                <div class="postagem-cabecalho flex__container">
+                    <img src="img/avatar-ausente.png" alt="Avatar do usuario" class="postagem-avatar" id="postagem-avatar" data-postagem="avatar">
+                    <h3 class="postagem-autor" id="postagem-autor" data-postagem="autor">Teste Autor</h3>
+                </div>
+                <div class="postagem-corpo flex__container">
+                    <h2 class="postagem-titulo" id="postagem-titulo" data-postagem="titulo">Teste titulo</h2>
+                    <p class="postagem-texto" id="postagem-texto" data-postagem="texto">est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla</p>
+                    <div class="postagem-assinatura-container">
+                        <p class="postagem-assinatura" id="postagem-assinatura" data-postagem="assinatura">Teste assinatura</p>
+                    </div>
+                </div>
+            </section>
+        </section> 
     </main>
     <footer>
 
-    </footer>    
+    </footer>
+    <script src="app/trocaIconeFiltro.js"></script>  
 </body>
 </html>

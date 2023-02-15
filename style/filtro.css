@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     column-gap: 2rem;
-    margin: 0 auto;    
+    margin: 5rem auto;     
 }
 .filtro__por-texto{
     flex-direction: column;
@@ -29,7 +29,11 @@
     font-size: 1.5rem;
     border-radius: 10px;
     border: 1px solid var(--marrom-escuro-btn);
-    padding: .5em;
+    padding: .2rem .5em;
+    background-color: var(--cor-pasta-suspensa);
+}
+.filtro__pesquisa-input::placeholder{
+    text-align: center;
 }
 .btn-filtro{
     width: 50px;

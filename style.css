@@ -3,6 +3,9 @@
 
 @import url("style/header.css");
 @import url("style/filtro.css");
+@import url("style/main.css");
+@import url("style/abas.css");
+@import url("style/postagem.css");
 
 :root{
     font-size: 10px;
@@ -19,7 +22,10 @@
     --cor-capa-livro:#aa5656;
     --cor-pasta-suspensa:#f1d3b3;
     --marrom-escuro-btn: #402401;
+    --marrom-escuro-btn-destaque:#D97904;
     --marrom-claro-btn:#735634;
+
+    --cor-pagina: #F9F5E7;
 
 
     --header-bg-cor: linear-gradient(120deg, rgba(139,126,116,1) 0%, rgba(199,188,161,1) 49%, rgba(241,211,179,1) 98%);
