@@ -11,6 +11,7 @@
     background-color: #E1EEDD;
     border-radius: 15px;
     border: 2px dashed var(--marrom-escuro-btn);
+    box-shadow: 1px 0 9px var(--marrom-escuro-btn);
 }
 
 .postagem-cabecalho{
