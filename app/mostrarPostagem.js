@@ -16,7 +16,7 @@ async function mostrarTela(lista){
                     <h2 class="postagem-titulo" id="postagem-titulo" data-postagem="titulo">${e.title}</h2>
                     <p class="postagem-texto" id="postagem-texto" data-postagem="texto">${e.body}</p>
                     <div class="postagem-assinatura-container">
-                        <p class="postagem-assinatura" id="postagem-assinatura" data-postagem="assinatura">Teste assinatura</p>
+                        <p class="postagem-assinatura" id="postagem-assinatura" data-postagem="assinatura">Ass: ${autor}</p>
                     </div>
                 </div>
             </section>
@@ -27,8 +27,9 @@ async function mostrarTela(lista){
 
 }
 async function buscarUsuario(id){
-    const autorDaPostagem = await conexao.buscarUsuarioUnico(id);
+    const autorDaPostagem = await conexao.buscarUsuarioUnico(id);    
     const autorDaPostagemTraduzido = autorDaPostagem[0].name;
+    
     return autorDaPostagemTraduzido;
 }
 
